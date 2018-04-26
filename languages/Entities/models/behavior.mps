@@ -2,7 +2,7 @@
 <model ref="r:874761fe-fb4c-4392-b64a-5969d65db73c(Entities.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -182,14 +182,14 @@
                 <node concept="2pJPED" id="62UF6yX6Ag$" role="2pJPEn">
                   <ref role="2pJxaS" to="f7ej:62UF6yX6ljF" resolve="EntityInstance" />
                   <node concept="2pIpSj" id="62UF6yX6AiU" role="2pJxcM">
-                    <ref role="2pIpSl" to="f7ej:62UF6yX6ljG" />
+                    <ref role="2pIpSl" to="f7ej:62UF6yX6ljG" resolve="decl" />
                     <node concept="36biLy" id="62UF6yX6Ak3" role="2pJxcZ">
                       <node concept="2OqwBi" id="62UF6yX6Amd" role="36biLW">
                         <node concept="Jnkvi" id="62UF6yX6Ake" role="2Oq$k0">
                           <ref role="1M0zk5" node="62UF6yX6z_W" resolve="t" />
                         </node>
                         <node concept="3TrEf2" id="62UF6yX6Ara" role="2OqNvi">
-                          <ref role="3Tt5mk" to="f7ej:62UF6yX6kkO" />
+                          <ref role="3Tt5mk" to="f7ej:62UF6yX6kkO" resolve="entity" />
                         </node>
                       </node>
                     </node>
