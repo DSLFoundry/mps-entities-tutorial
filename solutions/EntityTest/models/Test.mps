@@ -54,6 +54,12 @@
         <property role="TrG5h" value="age" />
         <node concept="3tCY_L" id="62UF6yX6l8o" role="3tCY_p" />
       </node>
+      <node concept="3tCYUC" id="6fSD8CwoAk$" role="3tCYUH">
+        <property role="TrG5h" value="address" />
+        <node concept="3tCY_K" id="6fSD8CwoAkM" role="3tCY_p">
+          <ref role="3tCY_s" node="6fSD8CwoAem" resolve="Address" />
+        </node>
+      </node>
     </node>
     <node concept="3tCYVn" id="62UF6yX6l83" role="3tCYUS">
       <property role="TrG5h" value="Employee" />
@@ -65,6 +71,63 @@
         <property role="TrG5h" value="personalData" />
         <node concept="3tCY_K" id="62UF6yX6lj_" role="3tCY_p">
           <ref role="3tCY_s" node="62UF6yX6kkh" resolve="Person" />
+        </node>
+      </node>
+    </node>
+    <node concept="3tCYVn" id="6fSD8CwoAem" role="3tCYUS">
+      <property role="TrG5h" value="Address" />
+      <node concept="3tCYUC" id="6fSD8CwoAf2" role="3tCYUH">
+        <property role="TrG5h" value="streetName" />
+        <node concept="3tCY_M" id="6fSD8CwoAf8" role="3tCY_p" />
+      </node>
+      <node concept="3tCYUC" id="6fSD8CwoAfc" role="3tCYUH">
+        <property role="TrG5h" value="houseNr" />
+        <node concept="3tCY_L" id="6fSD8CwoAfm" role="3tCY_p" />
+      </node>
+      <node concept="3tCYUC" id="6fSD8CwoAfq" role="3tCYUH">
+        <property role="TrG5h" value="postCode" />
+        <node concept="3tCY_M" id="6fSD8CwoAfY" role="3tCY_p" />
+      </node>
+      <node concept="3tCYUC" id="6fSD8CwoAfG" role="3tCYUH">
+        <property role="TrG5h" value="city" />
+        <node concept="3tCY_M" id="6fSD8CwoAg2" role="3tCY_p" />
+      </node>
+      <node concept="3tCYUC" id="6fSD8CwoAg6" role="3tCYUH">
+        <property role="TrG5h" value="country" />
+        <node concept="3tCY_M" id="6fSD8CwoAgs" role="3tCY_p" />
+      </node>
+    </node>
+    <node concept="3tCZy3" id="6fSD8CwoAhV" role="3tCYUS">
+      <property role="TrG5h" value="EugensAddress" />
+      <ref role="3tCZy4" node="6fSD8CwoAem" resolve="Address" />
+      <node concept="3tCZyr" id="6fSD8CwoAhX" role="3tCZy6">
+        <ref role="3tCZys" node="6fSD8CwoAf2" resolve="streetName" />
+        <node concept="3tCZyv" id="6fSD8CwoAhZ" role="3tC4X0">
+          <property role="3tCZyg" value="someStreet" />
+        </node>
+      </node>
+      <node concept="3tCZyr" id="6fSD8CwoAi0" role="3tCZy6">
+        <ref role="3tCZys" node="6fSD8CwoAfc" resolve="houseNr" />
+        <node concept="3tCZyi" id="6fSD8CwoAi2" role="3tC4X0">
+          <property role="3tCZyj" value="42" />
+        </node>
+      </node>
+      <node concept="3tCZyr" id="6fSD8CwoAi3" role="3tCZy6">
+        <ref role="3tCZys" node="6fSD8CwoAfq" resolve="postCode" />
+        <node concept="3tCZyv" id="6fSD8CwoAi5" role="3tC4X0">
+          <property role="3tCZyg" value="somePostCode" />
+        </node>
+      </node>
+      <node concept="3tCZyr" id="6fSD8CwoAi6" role="3tCZy6">
+        <ref role="3tCZys" node="6fSD8CwoAfG" resolve="city" />
+        <node concept="3tCZyv" id="6fSD8CwoAi8" role="3tC4X0">
+          <property role="3tCZyg" value="someCity" />
+        </node>
+      </node>
+      <node concept="3tCZyr" id="6fSD8CwoAi9" role="3tCZy6">
+        <ref role="3tCZys" node="6fSD8CwoAg6" resolve="country" />
+        <node concept="3tCZyv" id="6fSD8CwoAib" role="3tC4X0">
+          <property role="3tCZyg" value="someCountry" />
         </node>
       </node>
     </node>
