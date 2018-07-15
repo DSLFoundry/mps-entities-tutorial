@@ -93,6 +93,9 @@
       <property role="IQ2ns" value="6970072939158389456" />
       <ref role="20lvS9" node="62UF6yX6kb2" resolve="IModuleContent" />
     </node>
+    <node concept="PrWs8" id="6fSD8CwnH3g" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="PlHQZ" id="62UF6yX6kb2">
     <property role="TrG5h" value="IModuleContent" />

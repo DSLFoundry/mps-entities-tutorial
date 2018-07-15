@@ -32,6 +32,9 @@
         <reference id="6970072939158394100" name="decl" index="3tCZys" />
         <child id="6970072939158496040" name="value" index="3tC4X0" />
       </concept>
+      <concept id="6970072939158394103" name="Entities.structure.StringValue" flags="ng" index="3tCZyv">
+        <property id="6970072939158394104" name="val" index="3tCZyg" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -40,6 +43,7 @@
     </language>
   </registry>
   <node concept="3tCYUD" id="62UF6yX6kkg">
+    <property role="TrG5h" value="People" />
     <node concept="3tCYVn" id="62UF6yX6kkh" role="3tCYUS">
       <property role="TrG5h" value="Person" />
       <node concept="3tCYUC" id="62UF6yX6kkj" role="3tCYUH">
@@ -64,17 +68,35 @@
         </node>
       </node>
     </node>
+    <node concept="3tCZy3" id="6fSD8Cwo90A" role="3tCYUS">
+      <property role="TrG5h" value="Eugen" />
+      <ref role="3tCZy4" node="62UF6yX6kkh" resolve="Person" />
+      <node concept="3tCZyr" id="6fSD8Cwo90C" role="3tCZy6">
+        <ref role="3tCZys" node="62UF6yX6kkj" resolve="name" />
+        <node concept="3tCZyv" id="6fSD8Cwo90E" role="3tC4X0">
+          <property role="3tCZyg" value="Eugen" />
+        </node>
+      </node>
+      <node concept="3tCZyr" id="6fSD8Cwo90F" role="3tCZy6">
+        <ref role="3tCZys" node="62UF6yX6kkl" resolve="age" />
+        <node concept="3tCZyi" id="6fSD8Cwo90H" role="3tC4X0">
+          <property role="3tCZyj" value="37" />
+        </node>
+      </node>
+    </node>
     <node concept="3tCZy3" id="62UF6yX6K7c" role="3tCYUS">
+      <property role="TrG5h" value="Eugen" />
       <ref role="3tCZy4" node="62UF6yX6l83" resolve="Employee" />
       <node concept="3tCZyr" id="62UF6yX6QY7" role="3tCZy6">
         <ref role="3tCZys" node="62UF6yX6l89" resolve="number" />
         <node concept="3tCZyi" id="62UF6yX6QY9" role="3tC4X0">
-          <property role="3tCZyj" value="0" />
+          <property role="3tCZyj" value="1001212" />
         </node>
       </node>
       <node concept="3tCZyr" id="62UF6yX6QYa" role="3tCZy6">
         <ref role="3tCZys" node="62UF6yX6ljv" resolve="personalData" />
         <node concept="3tCZy3" id="62UF6yX6QYc" role="3tC4X0">
+          <property role="TrG5h" value="Eugen" />
           <ref role="3tCZy4" node="62UF6yX6kkh" resolve="Person" />
         </node>
       </node>
