@@ -66,12 +66,11 @@
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
         <reference id="5455284157994012188" name="link" index="2pIpSl" />
+        <child id="1595412875168045827" name="initValue" index="28nt2d" />
       </concept>
       <concept id="5455284157993911077" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitProperty" flags="ng" index="2pJxcG">
         <reference id="5455284157993911078" name="property" index="2pJxcJ" />
-      </concept>
-      <concept id="5455284157993911097" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitPart" flags="ng" index="2pJxcK">
-        <child id="5455284157993911094" name="expression" index="2pJxcZ" />
+        <child id="1595412875168045201" name="initValue" index="28ntcv" />
       </concept>
       <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
         <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
@@ -133,7 +132,7 @@
                   <ref role="2pJxaS" to="f7ej:62UF6yX6ljU" resolve="IntegerValue" />
                   <node concept="2pJxcG" id="62UF6yX6zMI" role="2pJxcM">
                     <ref role="2pJxcJ" to="f7ej:62UF6yX6ljV" resolve="val" />
-                    <node concept="3cmrfG" id="62UF6yX6zO1" role="2pJxcZ">
+                    <node concept="3cmrfG" id="62UF6yX6zO1" role="28ntcv">
                       <property role="3cmrfH" value="0" />
                     </node>
                   </node>
@@ -158,7 +157,7 @@
                   <ref role="2pJxaS" to="f7ej:62UF6yX6ljR" resolve="StringValue" />
                   <node concept="2pJxcG" id="62UF6yX6zUl" role="2pJxcM">
                     <ref role="2pJxcJ" to="f7ej:62UF6yX6ljS" resolve="val" />
-                    <node concept="Xl_RD" id="62UF6yX6zVG" role="2pJxcZ">
+                    <node concept="Xl_RD" id="62UF6yX6zVG" role="28ntcv">
                       <property role="Xl_RC" value="" />
                     </node>
                   </node>
@@ -183,7 +182,7 @@
                   <ref role="2pJxaS" to="f7ej:62UF6yX6ljF" resolve="EntityInstance" />
                   <node concept="2pIpSj" id="62UF6yX6AiU" role="2pJxcM">
                     <ref role="2pIpSl" to="f7ej:62UF6yX6ljG" resolve="decl" />
-                    <node concept="36biLy" id="62UF6yX6Ak3" role="2pJxcZ">
+                    <node concept="36biLy" id="62UF6yX6Ak3" role="28nt2d">
                       <node concept="2OqwBi" id="62UF6yX6Amd" role="36biLW">
                         <node concept="Jnkvi" id="62UF6yX6Ake" role="2Oq$k0">
                           <ref role="1M0zk5" node="62UF6yX6z_W" resolve="t" />
